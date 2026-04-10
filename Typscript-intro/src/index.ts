@@ -1,5 +1,5 @@
-let age :number = 25;
 
-age ="25"
-
-age = 23
+function greet(name:string) :string {
+    return `thanks, ${name}`
+}
+console.log(greet("typescript"))
