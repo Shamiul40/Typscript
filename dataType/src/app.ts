@@ -22,19 +22,18 @@ const student1 :Student = {
 
 
 const student2:Student = {
-    name : "Rakib",
+    name : "Sakib hassan",
     age : 22,
     isEnrolled :true,
     course: ["typescript", "javascript", "python"],
-    marks :[70,75,80],
-    info:["Rakib", 22, true]
+    marks :[70,78,80],
+    info:["Rakib", 22, false]
 }
 
 
 function displayStudent(student :Student) :void {
     console.log(`name : ${student.name}`)
-    console.log(`age : ${student.age}`)
-    console.log(`course : ${student.course.join(", ")}`)
+   
 }
 
 
