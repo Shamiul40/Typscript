@@ -34,8 +34,15 @@
 
 // displayStudent(student1)
 
-function greetings(firstName: string, lastName: string, title?: string) :string{
-  return `${firstName} ${lastName} he is a ${title ? title : "N/A"}`;
-}
+// function greetings(firstName: string, lastName: string, title?: string) :string{
+//   return `${firstName} ${lastName} he is a ${title ? title : "N/A"}`;
+// }
 
-console.log(greetings("Shamiul", "islam", "doctor"))
+// console.log(greetings("Shamiul", "islam", "doctor"))
+
+
+function weleCome(name:string ="Guest") :string{
+    return `welcome ${name}`
+}
+console.log(weleCome())
+console.log(weleCome("shamiul islam"))
