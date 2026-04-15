@@ -48,4 +48,4 @@ console.log(weleCome())
 
 
 const add=(a:number, b:number) :number=> a+b
-console.log(add(5, 2))
+console.log(add(5, 3))
