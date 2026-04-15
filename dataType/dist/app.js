@@ -37,5 +37,6 @@ function weleCome(name = "Guest") {
     return `welcome ${name}`;
 }
 console.log(weleCome());
-console.log(weleCome("shamiul islam"));
+const add = (a, b) => a + b;
+console.log(add(5, 2));
 //# sourceMappingURL=app.js.map

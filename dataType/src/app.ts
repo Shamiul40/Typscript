@@ -45,4 +45,7 @@ function weleCome(name:string ="Guest") :string{
     return `welcome ${name}`
 }
 console.log(weleCome())
-console.log(weleCome("shamiul"))
+
+
+const add=(a:number, b:number) :number=> a+b
+console.log(add(5, 2))
