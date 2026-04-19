@@ -49,3 +49,22 @@
 
 // const add=(a:number, b:number) :number=> a+b
 // console.log(add(5, 6))
+
+
+
+const student = {
+    name : 'shamiul islam',
+    age : 25
+}
+
+
+const student = {
+    name : 'shamiul islam',
+    age : 25
+}
+
+
+const printUser =(user : {name: string, age :number}) :void=>{
+console.log(`${user.name} is ${user.age} years old`)
+}
+ printUser(student)
