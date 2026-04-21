@@ -52,19 +52,30 @@
 
 
 
-const student = {
-    name : 'shamiul islam',
-    age : 25
+// const student = {
+//     name : 'shamiul islam',
+//     age : 25
+// }
+
+
+// const student = {
+//     name : 'shamiul islam',
+//     age : 25
+// }
+
+
+// const printUser =(user : {name: string, age :number}) :void=>{
+// console.log(`${user.name} is ${user.age} years old`)
+// }
+//  printUser(student)
+
+
+
+type ProductId = number | string;
+
+const getProducts =(id :ProductId) :void=> {
+
+    console.log(`product id is ${id}`)
 }
 
-
-const student = {
-    name : 'shamiul islam',
-    age : 25
-}
-
-
-const printUser =(user : {name: string, age :number}) :void=>{
-console.log(`${user.name} is ${user.age} years old`)
-}
- printUser(student)
+getProducts("abc13")
