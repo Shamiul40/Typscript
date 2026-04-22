@@ -78,4 +78,25 @@ const getProducts =(id :ProductId) :void=> {
     console.log(`product id is ${id}`)
 }
 
-getProducts("abc13")
+getProducts("abc13555")
+
+
+type ProductId = number | string;
+
+const getProducts =(id :ProductId) :void=> {
+
+    console.log(`product id is ${id}`)
+}
+
+getProducts("abc13555")
+
+
+
+type ProductId = number | string;
+
+const getProducts =(id :ProductId) :void=> {
+
+    console.log(`product id is ${id}`)
+}
+
+getProducts("abc13555")
