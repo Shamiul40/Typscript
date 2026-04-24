@@ -74,13 +74,34 @@
 
 // type of type guard
 
-const display = (val: string | number): void => {
-    if(typeof val==="string") {
-        console.log("it is a string", val.toLocaleUpperCase())
-    } else {
-        console.log("it is a number", val.toFixed(2))
-    }
-};
+// const display = (val: string | number): void => {
+//     if(typeof val==="string") {
+//         console.log("it is a string", val.toLocaleUpperCase())
+//     } else {
+//         console.log("it is a number", val.toFixed(2))
+//     }
+// };
 
-display("Full stack developer")
-display(101.2223454004)
+// display("Full stack developer")
+// display(101.2223454004)
+
+// class define
+
+class Person {
+  name: string;
+  age: number;
+
+  constructor() {
+    ((this.name = ""), (this.age = 0));
+  }
+
+  greet() {
+    console.log(`helllo ${this.name}`);
+  }
+}
+
+const user1 = new Person();
+
+user1.name = " Shamiul islam";
+user1.age = 27;
+user1.greet()

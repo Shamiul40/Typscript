@@ -57,14 +57,28 @@ Object.defineProperty(exports, "__esModule", { value: true });
 // }
 // getProducts("abc13555")
 // type of type guard
-const display = (val) => {
-    if (typeof val === "string") {
-        console.log("it is a string", val.toLocaleUpperCase());
+// const display = (val: string | number): void => {
+//     if(typeof val==="string") {
+//         console.log("it is a string", val.toLocaleUpperCase())
+//     } else {
+//         console.log("it is a number", val.toFixed(2))
+//     }
+// };
+// display("Full stack developer")
+// display(101.2223454004)
+// class define
+class Person {
+    name;
+    age;
+    constructor() {
+        ((this.name = ""), (this.age = 0));
     }
-    else {
-        console.log("it is a number", val.toFixed(2));
+    greet() {
+        console.log(`helllo ${this.name}`);
     }
-};
-display("Full stack developer");
-display(101.2223454004);
+}
+const user1 = new Person();
+user1.name = " Shamiul islam";
+user1.age = 27;
+user1.greet();
 //# sourceMappingURL=app.js.map
