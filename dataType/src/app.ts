@@ -87,21 +87,43 @@
 
 // class define
 
-class Person {
-  name: string;
-  age: number;
+// class Person {
+//   name: string;
+//   age: number;
 
-  constructor() {
-    ((this.name = ""), (this.age = 0));
-  }
+//   constructor() {
+//     ((this.name = ""), (this.age = 0));
+//   }
 
-  greet() {
-    console.log(`helllo ${this.name}`);
-  }
+//   greet() {
+//     console.log(`helllo ${this.name}`);
+//   }
+// }
+
+// const user1 = new Person();
+
+// user1.name = " Shamiul islam";
+// user1.age = 27;
+// user1.greet()
+
+
+
+class person {
+    name : string;
+    age : number;
+
+    constructor() {
+        this.name = "";
+        this.age = 0;
+    }
+
+    greet(){
+        console.log(`hi ${this.name}. your age is${this.age}`)
+    }
 }
 
-const user1 = new Person();
+const user2 = new person();
 
-user1.name = " Shamiul islam";
-user1.age = 27;
-user1.greet()
+user2.name = "Umme Habiba";
+user2.age = 24;
+user2.greet();

@@ -67,18 +67,33 @@ Object.defineProperty(exports, "__esModule", { value: true });
 // display("Full stack developer")
 // display(101.2223454004)
 // class define
-class Person {
+// class Person {
+//   name: string;
+//   age: number;
+//   constructor() {
+//     ((this.name = ""), (this.age = 0));
+//   }
+//   greet() {
+//     console.log(`helllo ${this.name}`);
+//   }
+// }
+// const user1 = new Person();
+// user1.name = " Shamiul islam";
+// user1.age = 27;
+// user1.greet()
+class person {
     name;
     age;
     constructor() {
-        ((this.name = ""), (this.age = 0));
+        this.name = "";
+        this.age = 0;
     }
     greet() {
-        console.log(`helllo ${this.name}`);
+        console.log(`hi ${this.name}. your age is${this.age}`);
     }
 }
-const user1 = new Person();
-user1.name = " Shamiul islam";
-user1.age = 27;
-user1.greet();
+const user2 = new person();
+user2.name = "Umme Habiba";
+user2.age = 24;
+user2.greet();
 //# sourceMappingURL=app.js.map
