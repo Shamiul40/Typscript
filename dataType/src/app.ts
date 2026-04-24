@@ -40,46 +40,47 @@
 
 // // console.log(greetings("Shamiul", "islam", "doctor"))
 
-
 // function weleCome(name:string ="Guest") :string{
 //     return `welcome ${name}`
 // }
 // console.log(weleCome())
 
-
 // const add=(a:number, b:number) :number=> a+b
 // console.log(add(5, 6))
 
-
-
 // const student = {
 //     name : 'shamiul islam',
 //     age : 25
 // }
 
-
 // const student = {
 //     name : 'shamiul islam',
 //     age : 25
 // }
-
 
 // const printUser =(user : {name: string, age :number}) :void=>{
 // console.log(`${user.name} is ${user.age} years old`)
 // }
 //  printUser(student)
 
+// type ProductId = number | string;
 
+// const getProducts =(id :ProductId) :void=> {
 
-type ProductId = number | string;
+//     console.log(`product id is ${id}`)
+// }
 
-const getProducts =(id :ProductId) :void=> {
+// getProducts("abc13555")
 
-    console.log(`product id is ${id}`)
-}
+// type of type guard
 
-getProducts("abc13555")
+const display = (val: string | number): void => {
+    if(typeof val==="string") {
+        console.log("it is a string", val.toLocaleUpperCase())
+    } else {
+        console.log("it is a number", val.toFixed(2))
+    }
+};
 
-
-
-
+display("Full stack developer")
+display(101.2223454004)
