@@ -104,9 +104,4 @@ user2.age = 24;
 user2.greet();
 
 
-const user2 = new person();
-user2.name = "Umme Habiba";
-user2.age = 24;
-user2.greet();
-
 
